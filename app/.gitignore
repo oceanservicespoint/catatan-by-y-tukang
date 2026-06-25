@@ -1,1 +1,33 @@
+# Build
 /build
+**/build/
+
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Keystore
+*.jks
+*.keystore
+
+# APK & Bundle
+*.apk
+*.aab
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase Admin (jika ada)
+service-account.json
+firebase-adminsdk.json
+
+# Environment
+.env
+.env.*

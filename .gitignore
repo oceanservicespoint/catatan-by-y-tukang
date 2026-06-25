@@ -13,3 +13,18 @@
 .externalNativeBuild
 .cxx
 local.properties
+# APK & App Bundle
+*.apk
+*.aab
+
+# Signing Key
+*.jks
+*.keystore
+
+# Environment
+.env
+.env.*
+
+# Firebase Admin
+service-account.json
+firebase-adminsdk.json
